@@ -20,7 +20,27 @@
     letter-spacing: 5px;
 }
 
+.header-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Navbar */
 .aph-logo {
     width: 400px
+}
+
+.col-red, .col-blue {
+    width: 100px;
+}
+
+.about-link {
+    background-color: #eb5840;
+}
+
+.service-link {
+    background-color: #34577c;
+}
+
+.contact-link {
+    background-color: #35a4c5;
 }
