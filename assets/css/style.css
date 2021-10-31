@@ -1,4 +1,30 @@
-/* Global CSS Vars */
+/* Global CSS */
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Code is used to create a fixed footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Main Body Content */
+main {
+    /* Code is used to create a fixed footer */
+    flex: 1 0 auto;
+}
+
+/* Footer Content */
+.main-footer {
+    /* Code is used to create a fixed footer */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 /* Letter Spacings */
 .ls-1 {
     letter-spacing: 1px;
@@ -20,17 +46,48 @@
     letter-spacing: 5px;
 }
 
+/* Fonts */
 .header-font {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.text-font {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Text Colours */
+.red-text {
+    color: #eb5840;
+}
+
+.dblue-text {
+    color: #34577c;
+}
+
+.lblue-text {
+    color: #35a4c5;
+}
+
+/* Background Colours */
+.red-bg {
+    background-color: #eb5840;
+}
+
+.dblue-bg {
+    background-color: #34577c;
+}
+
+.lblue-bg {
+    background-color: #35a4c5;
+}
+
+.text-shadow {
+    text-shadow: 4px 2px #00000060;
 }
 
 /* Navbar */
 .aph-logo {
     width: 400px
-}
-
-.col-red, .col-blue {
-    width: 100px;
 }
 
 .about-link {
@@ -44,3 +101,9 @@
 .contact-link {
     background-color: #35a4c5;
 }
+
+/* Banner section */
+.info-banner {
+    font-size: 50px;
+}
+
