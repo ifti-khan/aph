@@ -49,28 +49,34 @@
                         class="aph-logo"></a>
             </div>
             <!-- Contact information -->
-            <div class="col-12 col-lg-4 text-start bg-white pe-lg-4 header-font">
-                <p class="ls-2 fs-4 my-2 text-end"><i class="fas fa-phone-square fa-xl red-text"></i> 07342171269</p>
-                <p class="ls-2 fs-4 my-2 text-end"><i class="fas fa-envelope-square fa-xl red-text"></i> info@aph.co.uk</p>
+            <div class="col-12 col-lg-4 bg-white pe-lg-4 header-font">
+                <p class="ls-2 fs-4 my-2 text-center text-lg-end"><i class="fas fa-phone-square fa-xl orange-text"></i>
+                    07342171269</p>
+                <p class="ls-2 fs-4 my-2 text-center text-lg-end"><i
+                        class="fas fa-envelope-square fa-xl orange-text"></i>
+                    info@aph.co.uk</p>
             </div>
         </div>
 
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-md navbar-light bg-white border-top">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggle">
+                <button class="navbar-toggler mb-2 mx-auto px-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-toggle">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-toggle">
                     <ul class="navbar-nav mx-auto mb-2 mb-xl-0 text-uppercase fw-bold text-font">
-                        <li class="nav-item border-start border-end">
-                            <a class="nav-link about-link px-4 ls-4 text-white" href="#">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link about-link px-4 ls-4 text-white text-center" href="#about">About</a>
                         </li>
-                        <li class="nav-item border-end">
-                            <a class="nav-link service-link px-4 ls-4 text-white" href="#">Service</a>
+                        <li class="nav-item">
+                            <a class="nav-link service-link px-4 ls-4 text-white text-center"
+                                href="#service">Service</a>
                         </li>
-                        <li class="nav-item border-end">
-                            <a class="nav-link contact-link px-4 ls-4 text-white" href="#">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link contact-link px-4 ls-4 text-white text-center"
+                                href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -79,47 +85,100 @@
     </header>
 
     <main>
+        <!-- Info Banner -->
         <div class="row g-0">
             <div class="col-12">
-                <h1 class="info-banner header-font ls-5 fw-bolder text-uppercase text-center dblue-bg text-white py-4 mb-0 text-shadow shadow-lg">
-                    St Albans Plumber - Professional,<br>Reliable & Affordable Plumbing Service</h1>
+                <h1
+                    class="info-banner header-font ls-5 fw-bolder text-uppercase text-center dblue-bg text-white py-4 mb-0 text-shadow-1 shadow-lg">
+                    Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing Service</h1>
             </div>
         </div>
-        
-        
-        <div class="" id="about"></div>
-        <div class="" id="contact"></div>
+        <!-- About Section -->
+        <div class="row g-0">
+            <div class="col">
+                <div class="text-font text-center py-4 ls-1" id="about">
+                    <h2 class="text-uppercase">About</h2>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
+                    labore,
+                    <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
+                    repellat.<br><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
+                    labore,
+                    <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
+                    repellat.
+                </div>
+            </div>
+        </div>
+        <!-- Service Section -->
+        <div class="row g-0">
+            <div class="col">
+                <div class="bg-lgrey text-font text-center py-4 ls-1" id="service">
+                    <h2 class="text-uppercase">Service</h2>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
+                    labore,
+                    <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
+                    repellat.<br><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
+                    labore,
+                    <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
+                    repellat.
+                </div>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div class="row g-0">
+            <div class="col">
+                <div class="text-font text-center py-4 ls-1" id="contact">
+                    <h2 class="text-uppercase">Contact</h2>
+                    <form id="contactform">
+                        <input type="text" name="fullname" id="fullname" placeholder="Name" required>
+
+                        <input type="text" name="number" id="mobile" placeholder="Number" required>
+
+                        <input type="email" name="emailaddress" id="email" placeholder="Email" required>
+
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+
+                        <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
+
+                        <button type="submit" id="sendbutton"
+                            class="btn btn-outline-secondary rounded-0 hvr-sweep-to-right send-btn">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
-        <footer class="main-footer text-center fw-bold text-uppercase border-top px-3">
-            <div class="row g-0">
-                <!-- Social footer link -->
-                <div class="col-12 col-md-4 col-lg-12">
-                    <span class="icons social-icons nav-link py-1 px-0">
-                        <!-- Facebook -->
-                        <a href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook-square fa-lg black-text" aria-hidden="true"></i></a>
-                        <!-- Twitter -->
-                        <a href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter-square fa-lg black-text" aria-hidden="true"></i></a>
-                        <!-- Instagram -->
-                        <a href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram fa-lg black-text" aria-hidden="true"></i></a>
-                    </span>
-                </div>
+    <!-- Footer containing social media links, copyright and link to personal portfolio -->
+    <footer class="main-footer text-center text-uppercase px-3">
+        <div class="row g-0 border-top">
+            <!-- Social media icons code block -->
+            <div class="col-12 col-md-4 col-lg-12">
+                <span class="nav-link py-1">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/Alban-Plumbing-and-Heating-Ltd-108182318306621" target="_blank"><i
+                            class="fab fa-facebook-square fa-2x orange-text px-1" aria-hidden="true"></i></a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/albanplumbingandheating_ltd/" target="_blank"><i
+                            class="fab fa-instagram fa-2x dblue-text" aria-hidden="true"></i></a>
+                    <!-- WhatsApp -->
+                    <a href="https://api.whatsapp.com/send?phone=447342171269&app=facebook&entry_point=page_cta&fbclid=IwAR1np_nzWu-oORswrtUnGId-E2ODPEXotrK09jcPoPmFT2ewQo_S-sjotYs"
+                        target="_blank"><i class="fab fa-whatsapp fa-2x lblue-text px-1" aria-hidden="true"></i></a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/AphAlban" target="_blank"><i
+                            class="fab fa-twitter-square fa-2x orange-text pe-1" aria-hidden="true"></i></a>
+                </span>
             </div>
-
-            <!-- This block of code is for the copyright and link to personal portfolio -->
-            <div class="row g-0">
-                <div class="col-12 copyright">
-                    <a href="https://ifti-khan.github.io/ifti-khan-milestone-project-1/" target="_blank"
-                        class="nav-link p-0 black-text">
-                        <!-- The span id is linked to the base js and this is for the year date
-                    which will update accordingly as the years go past -->
-                        &copy; Ifti Khan <span id="copyright-footerYear"></span>
-                    </a>
-                </div>
+        </div>
+        <!-- Copyright code block -->
+        <div class="row g-0">
+            <div class="col-12 copyright">
+                <a href="#" target="_blank" class="nav-link p-0 small text-black ls-1 text-font fw-bold">
+                    &copy; <span id="copyright-footerYear"></span> AI Web Devs
+                </a>
             </div>
+        </div>
+    </footer>
 
     <!---------------------------------------- Bottom JS  -->
     <!-- Bootstrap JS v5.1.1 -->
