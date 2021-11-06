@@ -16,15 +16,40 @@
 /* Tablets */
 @media (max-width: 768px) {
 
+    .aph-logo {
+        width: 500px
+    }
+
+    .info-banner {
+        font-size: 35px;
+    }
+
 }
 
 /* Large Smartphones */
 @media (max-width: 425px) {
 
+    .aph-logo {
+        width: 350px
+    }
+
+    .info-banner {
+        font-size: 35px;
+        padding: 0px 8px;
+    }
+
 }
 
 /* Medium Smartphones */
 @media (max-width: 375px) {
+
+    .aph-logo {
+        width: 325px
+    }
+
+    .info-banner {
+        font-size: 30px;
+    }
 
 }
 
@@ -33,6 +58,10 @@
 
     .aph-logo {
         width: 275px
+    }
+
+    .info-banner {
+        font-size: 25px;
     }
 
 }

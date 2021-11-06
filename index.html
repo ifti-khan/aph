@@ -60,14 +60,16 @@
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-md navbar-light bg-white border-top">
             <div class="container-fluid">
-                <button class="navbar-toggler mb-2 mx-auto px-5" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler mb-2 mx-auto px-5 rounded-0 shadow" type="button"
+                    data-bs-toggle="collapse"
                     data-bs-target="#navbar-toggle">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-toggle">
-                    <ul class="navbar-nav mx-auto mb-2 mb-xl-0 text-uppercase fw-bold text-font">
+                    <ul class="navbar-nav mx-auto text-uppercase fw-bold text-font">
                         <li class="nav-item">
-                            <a class="nav-link about-link px-4 ls-4 text-white text-center" href="#about">About</a>
+                            <a class="nav-link about-link px-4 ls-4 text-white text-center" 
+                            href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link service-link px-4 ls-4 text-white text-center"
@@ -86,17 +88,17 @@
     <main>
         <!-- Info Banner -->
         <div class="row g-0">
-            <div class="col-12">
+            <div class="col-12 px-lg-3">
                 <h1
-                    class="info-banner header-font ls-5 fw-bolder text-uppercase text-center dblue-bg text-white py-4 mb-0 text-shadow-1 shadow-lg">
+                    class="info-banner header-font bg-mgrey text-white text-shadow-1 ls-5 fw-bolder text-uppercase text-center py-4 mb-0">
                     Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing Service</h1>
             </div>
         </div>
         <!-- About Section -->
         <div class="row g-0">
-            <div class="col">
-                <div class="text-font text-center py-4 ls-1" id="about">
-                    <h2 class="text-uppercase">About</h2>
+            <div class="col px-lg-3">
+                <div class="red-bg text-white text-font text-center py-4 ls-1" id="about">
+                    <h1 class="text-uppercase header-font ls-5 about-head">About</h1>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
                     labore,
                     <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
@@ -110,9 +112,9 @@
         </div>
         <!-- Service Section -->
         <div class="row g-0">
-            <div class="col">
-                <div class="bg-lgrey text-font text-center py-4 ls-1" id="service">
-                    <h2 class="text-uppercase">Service</h2>
+            <div class="col px-lg-3">
+                <div class="dblue-bg text-white text-font text-center py-4 ls-1" id="service">
+                    <h2 class="text-uppercase header-font ls-5 service-head">Service</h2>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum quidem distinctio fuga esse
                     labore,
                     <br>suscipit voluptates non at ad modi architecto quas officiis unde dolorum fugiat magni quaerat
@@ -126,9 +128,9 @@
         </div>
         <!-- Contact Section -->
         <div class="row g-0">
-            <div class="col">
-                <div class="text-font text-center py-4 ls-1" id="contact">
-                    <h2 class="text-uppercase">Contact</h2>
+            <div class="col px-lg-3">
+                <div class="lblue-bg text-white text-font text-center py-4 ls-1" id="contact">
+                    <h2 class="text-uppercase header-font ls-5 contact-head">Contact</h2>
                     <form id="contactform">
                         <input type="text" name="fullname" id="fullname" placeholder="Name" required>
 
@@ -141,7 +143,7 @@
                         <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
 
                         <button type="submit" id="sendbutton"
-                            class="btn btn-outline-secondary rounded-0 hvr-sweep-to-right send-btn">send</button>
+                            class="btn btn-outline-light rounded-0 text-white text-uppercase ls-4 hvr-sweep-to-right send-btn">send</button>
                     </form>
                 </div>
             </div>
