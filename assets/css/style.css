@@ -103,11 +103,15 @@ main {
     width: 400px
 }
 
+.qual-logo {
+    width: 65px;
+}
+
 .about-link {
     background-color: #eb5840;
 }
 
-.service-link {
+.services-link {
     background-color: #34577c;
 }
 
@@ -120,8 +124,13 @@ main {
     font-size: 50px;
 }
 
-.about-head, .service-head, .contact-head {
+.about-head, .services-head, .contact-head {
     font-size: 50px;
+}
+
+/* About section */
+.info-icon, .toolbox-icon {
+    padding-top: 80px;
 }
 
 /* Contact Form */
@@ -131,7 +140,7 @@ main {
 #subject,
 #message {
     border: 2px solid #ffffff;
-    width: 50%;
+    width: 75%;
     margin: 15px auto;
     border-radius: 0px;
     font-size: 20px;
@@ -146,7 +155,6 @@ main {
     width: 150px;
     font-size: 18px;
     display: block;
-    margin: 0 auto;
 }
 
 
