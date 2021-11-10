@@ -68,6 +68,22 @@ main {
     color: #35a4c5;
 }
 
+.fb-color {
+    color: #4267B2;
+}
+
+.insta-color {
+    color: #FCAF45;
+}
+
+.whatsapp-color {
+    color: #25D366;
+}
+
+.twitter-color {
+    color: #00acee;
+}
+
 /* Background Colours */
 .red-bg {
     background-color: #eb5840;
@@ -129,8 +145,13 @@ main {
 }
 
 /* About section */
-.info-icon, .toolbox-icon {
-    padding-top: 80px;
+.info-icon {
+    padding-top: 85px;
+}
+
+/* Services Section */
+.toolbox-icon {
+    padding-top: 135px;
 }
 
 /* Contact Form */
