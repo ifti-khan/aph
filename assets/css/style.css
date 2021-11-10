@@ -119,8 +119,12 @@ main {
     width: 400px
 }
 
-.qual-logo {
-    width: 65px;
+.contact-info-con {
+    margin-left: 90px;
+}
+
+.gas-safe-logo {
+    width: 75px;
 }
 
 .about-link {

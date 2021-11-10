@@ -41,7 +41,7 @@
 
 <body>
     <!-- Header containing logo img and contact info -->
-    <header class="px-3 bg-white rounded">
+    <header class="px-3 bg-white rounded-0">
         <div class="row g-0 pt-3">
             <!-- Company Logo -->
             <div class="col-12 col-lg-8 logo-con bg-white text-center text-lg-start py-3 pt-lg-0">
@@ -97,7 +97,7 @@
             <div class="col">
                 <h1
                     class="info-banner header-font bg-mgrey text-white text-shadow-1 ls-5 fw-bolder text-uppercase text-center py-4 mb-0">
-                    Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing Service</h1>
+                    Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing & Gas Service</h1>
             </div>
         </div>
         <!-- About Section -->
@@ -113,7 +113,9 @@
                         <!-- About heading and text -->
                         <div class="col-12 col-md-8 col-lg-6 col-xl-5 px-lg-3 text-md-start">
                             <h1 class="text-uppercase text-shadow-1 header-font ls-5 about-head">About</h1>
-                            <p class="about-info">Based in St Albans Hertfordshire, here at Alban Plumbing & Heating we are qualified City
+                            <!-- About info -->
+                            <p class="about-info">Based in St Albans Hertfordshire, here at Alban Plumbing & Heating we
+                                are qualified City
                                 & Guilds and Gas Safe engineers.<br><br>
 
                                 We take pride and passion in our work and each project is completed to the highest of
@@ -131,68 +133,81 @@
         <!-- Services Section -->
         <div class="row g-0">
             <!-- Services container -->
-                <div class="service-con dblue-bg text-white text-font text-center py-5 ls-1" id="services">
-                    <div class="row g-0">
-                        <!-- Services heading and text -->
-                        <div class="col-12 col-md-8 col-lg-6 col-xl-5 offset-md-1 offset-lg-2 offset-xl-3 text-md-end pe-0 pe-lg-3">
-                            <h1 class="text-uppercase text-shadow-1 header-font ls-5 services-head">Services</h1>
-                            <p>Here at Alban Plumbing & Heating we offer our services largely to domestic settings. We
-                                cater to everything that is plumbing, gas, heating, bathrooms and boilers.<br><br>
-
-                                Our full service list:<br>
-                                </p>
-
-
-                                <div class="row g-0">
-                                <div class="col-6 col-lg-6 service-col">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-tools fa-xs"></i> All plumbing and gas works</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Plumbing maintenance</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Emergency services</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Bathroom installations</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Bathroom renovations</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Boiler quotes</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Boiler installation</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Boiler breakdowns</li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-lg-6 service-col">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-tools fa-xs"></i> Boiler Servicing</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Boiler repairs</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Heating repairs</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Leak repairs</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Power flushing</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Gas Safety certificates</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Landlord certificates</li>
-                                        <li><i class="fas fa-tools fa-xs"></i> Home decorating & painting</li>
-                                    </ul>
-                                </div>
-                                </div>
-
-                            
+            <div class="service-con dblue-bg text-white text-font text-center py-5 ls-1" id="services">
+                <div class="row g-0">
+                    <!-- Services heading and text -->
+                    <div
+                        class="col-12 col-md-8 col-lg-6 col-xl-5 offset-md-1 offset-lg-2 offset-xl-3 text-md-end pe-0 pe-lg-3">
+                        <h1 class="text-uppercase text-shadow-1 header-font ls-5 services-head">Services</h1>
+                        <!-- Service info -->
+                        <p class="service-info">Here at Alban Plumbing & Heating we offer our services largely to
+                            domestic households. We cater to everything that is plumbing, gas, heating, bathrooms and boilers.<br><br>
+                            Our full service list:<br>
+                        </p>
+                        <div class="row g-0">
+                            <!-- Service left column -->
+                            <div class="col-6 col-lg-6 service-col">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-tools fa-xs"></i> All plumbing and gas works</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Plumbing maintenance</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Emergency services</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Bathroom installations</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Bathroom renovations</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Boiler quotes</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Boiler installation</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Boiler breakdowns</li>
+                                </ul>
+                            </div>
+                            <!-- Service right column -->
+                            <div class="col-6 col-lg-6 service-col">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-tools fa-xs"></i> Boiler Servicing</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Boiler repairs</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Heating repairs</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Leak repairs</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Power flushing</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Gas Safety certificates</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Landlord certificates</li>
+                                    <li><i class="fas fa-tools fa-xs"></i> Home decorating & painting</li>
+                                </ul>
+                            </div>
                         </div>
-                            <!-- Services icon -->
-                            <div class="col-md-3 col-lg-4 px-lg-3 text-lg-start text-md-center d-none d-md-block">
-                            <i class="fas fa-toolbox fa-10x toolbox-icon"></i>
+                    </div>
+                    <!-- Services icon -->
+                    <div class="col-md-3 col-lg-4 px-lg-3 text-lg-start text-md-center d-none d-md-block">
+                        <i class="fas fa-toolbox fa-10x toolbox-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section -->
+        <div class="row g-0">
+            <!-- Contact container -->
+            <div class="container">
+                <div class="lblue-bg text-white text-font text-center py-5 ls-1" id="contact">
+                    <div class="row g-0">
+                        <!-- About heading and text -->
+                        <div class="col-12 col-lg-6 offset-lg-3">
+                            <h1 class="text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact</h1>
+                            <!-- Contact info -->
+                            <p>Send us a message and we'll get back to you shortly.</p>
+                            <!-- Contact form -->
+                            <form action="">
+                                
+                            </form>
+                            
                         </div>
                     </div>
                 </div>
             </div>
-        <!-- Contact section -->
-        <div class="row g-0">
-                <div class="col-12 lblue-bg py-4 text-white text-font ls-1"
-                    id="contact">
-                    <h2 class="text-uppercase text-center text-white text-shadow-1 header-font ls-5 contact-head">Contact</h2>
-                </div>
         </div>
     </main>
 
     <!-- Footer containing social media links, copyright and link to personal portfolio -->
-    <footer class="main-footer text-center text-uppercase px-3">
-        <div class="row g-0 border-top">
+    <footer class="main-footer text-center text-uppercase px-3 pt-3">
+        <div class="row g-0">
             <!-- Social media icons code block -->
-            <div class="col-12 col-md-4 col-lg-12">
+            <div class="col-12">
                 <span class="nav-link py-1">
                     <!-- Facebook -->
                     <a href="https://www.facebook.com/Alban-Plumbing-and-Heating-Ltd-108182318306621" target="_blank"><i
@@ -210,7 +225,7 @@
             </div>
         </div>
         <!-- Copyright code block -->
-        <div class="row g-0">
+        <div class="row g-0 pt-1">
             <div class="col-12 copyright">
                 <a href="#" target="_blank" class="nav-link p-0 small text-black ls-1 text-font fw-bold">
                     &copy; <span id="copyright-footerYear"></span> AI Web Devs
