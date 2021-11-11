@@ -160,9 +160,8 @@ main {
 
 /* Contact Form */
 #fullname,
-#mobile,
 #email,
-#subject,
+#phone,
 #message {
     border: 2px solid #ffffff;
     width: 75%;
@@ -171,8 +170,7 @@ main {
     font-size: 20px;
 }
 
-#fullname,
-#subject {
+#fullname {
     text-transform: capitalize;
 }
 

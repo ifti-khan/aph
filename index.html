@@ -141,7 +141,8 @@
                         <h1 class="text-uppercase text-shadow-1 header-font ls-5 services-head">Services</h1>
                         <!-- Service info -->
                         <p class="service-info">Here at Alban Plumbing & Heating we offer our services largely to
-                            domestic households. We cater to everything that is plumbing, gas, heating, bathrooms and boilers.<br><br>
+                            domestic households. We cater to everything that is plumbing, gas, heating, bathrooms and
+                            boilers.<br><br>
                             Our full service list:<br>
                         </p>
                         <div class="row g-0">
@@ -190,12 +191,24 @@
                         <div class="col-12 col-lg-6 offset-lg-3">
                             <h1 class="text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact</h1>
                             <!-- Contact info -->
-                            <p>Send us a message and we'll get back to you shortly.</p>
+                            <p>Get in touch,<br>Send us a message and we'll get back to you shortly.</p>
                             <!-- Contact form -->
-                            <form action="">
-                                
+                            <form action="" id="contact-form">
+                                <input type="text" id="fullname" name="fullname" placeholder="Your Name" 
+                                autocomplete="off" required>
+
+                                <input type="email" id="email" name="email" placeholder="Email Address"
+                                    autocomplete="off" required>
+
+                                <input type="text" id="phone" name="phone" placeholder="Contact Number"
+                                    autocomplete="off">
+
+                                <textarea id="message" name="message" 
+                                placeholder="Please type your message here"></textarea><br>
+
+                                <input type="submit" value="Send">
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
