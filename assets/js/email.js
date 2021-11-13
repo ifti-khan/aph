@@ -1,4 +1,4 @@
-const btn = document.getElementById('sendBtn');
+const btn = document.getElementById('sendbutton');
 
 function changeSendBtnText() {
     btn.textContent = 'Send';
@@ -15,7 +15,7 @@ document.getElementById('contactForm')
         btn.textContent = 'Sending...';
 
         const serviceID = 'aph-gmail-service';
-        const templateID = 'my-default-template';
+        const templateID = 'aph-default-template';
 
         emailjs.send(serviceID, templateID, {
                 "from_name": this.name.value,
