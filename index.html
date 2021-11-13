@@ -185,28 +185,49 @@
         <div class="row g-0">
             <!-- Contact container -->
             <div class="container">
-                <div class="lblue-bg text-white text-font text-center py-5 ls-1" id="contact">
+                <div class="lblue-bg text-font text-center py-5 ls-1" id="contact">
                     <div class="row g-0">
                         <!-- About heading and text -->
-                        <div class="col-12 col-lg-6 offset-lg-3">
-                            <h1 class="text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact</h1>
+                        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+                            <h1 class="text-white text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact</h1>
                             <!-- Contact info -->
-                            <p>Get in touch,<br>Send us a message and we'll get back to you shortly.</p>
+                            <p class="text-white">Get in touch,<br>Send us a message and we'll get back to you shortly.</p>
                             <!-- Contact form -->
-                            <form action="" id="contact-form">
-                                <input type="text" id="fullname" name="fullname" placeholder="Your Name" 
-                                autocomplete="off" required>
+                            <form id="contactForm" method="post" action="" class="px-2 px-md-0">
+                                <!-- Name -->
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control rounded-0" id="name"
+                                        name="name" placeholder="Name*" required>
+                                    <label for="name">Name*</label>
+                                </div>
+                                <!-- Email Address -->
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-0" id="email"
+                                        name="email" placeholder="Email Address*" required>
+                                    <label for="email">Email Address*</label>
+                                </div>
+                                <!-- Contact Number -->
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control rounded-0" id="number"
+                                        name="number" placeholder="Contact Number*" required>
+                                    <label for="number">Contact Number*</label>
+                                </div>
 
-                                <input type="email" id="email" name="email" placeholder="Email Address"
-                                    autocomplete="off" required>
-
-                                <input type="text" id="phone" name="phone" placeholder="Contact Number"
-                                    autocomplete="off">
-
-                                <textarea id="message" name="message" 
-                                placeholder="Please type your message here"></textarea><br>
-
-                                <input type="submit" value="Send">
+                                <!-- Message box -->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control rounded-0" id="message" name="message"
+                                        placeholder="Message*" required></textarea>
+                                    <label for="message">Message*</label>
+                                </div>
+                                <!-- Form buttons -->
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <button type="reset"
+                                            class="btn btn-outline-light border-0 dblue-bg rounded-0 text-uppercase ls-1 px-4 px-lg-5">Clear</button>
+                                        <button type="submit"
+                                            class="btn btn-outline-light border-0 red-bg rounded-0 text-uppercase ls-1 px-4 px-lg-5">Send</button>
+                                    </div>
+                                </div>
                             </form>
 
                         </div>
@@ -260,7 +281,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async>
     </script>
     <!-- JS Files -->
-    <script src="assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src=".assets/js/email.js"></script>
 </body>
 
 </html>
