@@ -107,7 +107,7 @@ main {
 
 /* Text Shadows */
 .text-shadow-1 {
-    text-shadow: 3px 2px #000000c9;
+    text-shadow: 2px 2px 0.5px #000000c9;
 }
 
 .text-shadow-2 {
@@ -123,8 +123,8 @@ main {
     margin-left: 90px;
 }
 
-.gas-safe-logo {
-    width: 75px;
+.gas-safe-img {
+    width: 99px;
 }
 
 .about-link {
@@ -161,6 +161,34 @@ main {
 /* Contact Form */
 #message {
     height: 150px;
+}
+
+/* Back to top button */
+#back-to-top-btn {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 87px;
+    right: 4px;
+    transition: background-color 1s,
+        opacity 1s, visibility 1s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#back-to-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fa-angle-double-up {
+    margin-top: 10px;
+}
+
+#back-to-top-btn:hover {
+    cursor: pointer;
 }
 
 

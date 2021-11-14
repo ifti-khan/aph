@@ -50,6 +50,13 @@
         font-size: 12px;
     }
 
+    /* Back to top button */
+    #back-to-top-btn {
+        bottom: 87px;
+        right: 8px;
+
+    }
+
 }
 
 /* Medium Smartphones */

@@ -48,15 +48,23 @@
                 <a class="navbar-brand ms-lg-4" href="./index.html"><img src="./assets/images/logo.png" alt="APH Logo"
                         class="aph-logo"></a>
             </div>
-            <!-- Contact information -->
-            <div class="col-12 col-lg-4 bg-white pe-lg-4 header-font">
+            <!-- Contact information header -->
+            <div class="col-12 col-lg-4 bg-white pe-lg-4 header-font d-block d-lg-none">
                 <!-- Mobile number -->
-                <p class="ls-2 fs-4 my-2 text-center text-lg-end"><i class="fas fa-phone-square fa-xl orange-text"></i>
-                    07342171269</p>
+                <a href="tel:07342171269" class="text-decoration-none text-black">
+                    <p class="ls-4 fs-4 my-2 text-center text-lg-end">
+                        <i class="fas fa-phone-square fa-xl orange-text"></i> 07342171269</p>
+                </a>
                 <!-- Email address -->
-                <p class="ls-2 fs-4 my-2 text-center text-lg-end"><i
-                        class="fas fa-envelope-square fa-xl orange-text"></i>
-                    info@aph.co.uk</p>
+                <a href="mailto:info@aph.co.uk" class="text-decoration-none text-black">
+                    <p class="ls-4 fs-4 my-2 text-center text-lg-end">
+                        <i class="fas fa-envelope-square fa-xl orange-text"></i> albanaph786@gmail.com</p>
+                </a>
+            </div>
+            <!-- Gas Safe Logo -->
+            <div class="col-12 col-lg-4 text-end d-none d-lg-block">
+                <!-- Gas safe image -->
+                <img src="./assets/images/gas-safe-logo.jpg" alt="Gas Safe Logo" class="gas-safe-img">
             </div>
         </div>
 
@@ -92,14 +100,30 @@
     </header>
     <!-- Main content section -->
     <main>
-        <!-- Info Banner -->
-        <div class="row g-0">
-            <div class="col">
-                <h1
-                    class="info-banner header-font bg-mgrey text-white text-shadow-1 ls-5 fw-bolder text-uppercase text-center py-4 mb-0">
-                    Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing & Gas Service</h1>
+        <div class="row g-0 py-1 bg-dark d-none d-lg-flex">
+            <div class="col-lg-6 col-xl-3 offset-xl-3">
+                <!-- Mobile number -->
+                <a href="tel:07342171269" class="text-decoration-none text-warning">
+                    <p class="ls-3 fs-4 my-2 text-center">
+                        <i class="fas fa-phone-square fa-xl text-warning"></i> 07342171269</p>
+                </a>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <!-- Email address -->
+                <a href="mailto:info@aph.co.uk" class="text-decoration-none text-warning">
+                    <p class="ls-3 fs-4 my-2 text-center">
+                        <i class="fas fa-envelope-square fa-xl text-warning"></i> albanaph786@gmail.com
+                    </p>
+                </a>
             </div>
         </div>
+        <!-- Info Banner -->
+            <div class="row g-0 bg-mgrey">
+                <div class="col py-4">
+                    <h1 class="info-banner header-font text-white text-shadow-1 ls-5 fw-bolder text-uppercase text-center mb-0">
+                        Alban Plumbing & Heating - Professional,<br>Reliable & Affordable Plumbing & Gas Service</h1>
+                </div>
+            </div>
         <!-- About Section -->
         <div class="row g-0">
             <!-- About container -->
@@ -108,7 +132,7 @@
                     <div class="row g-0">
                         <!-- About icon -->
                         <div class="col-md-3 col-lg-4 px-lg-3 text-lg-end text-md-center d-none d-md-block">
-                            <i class="fas fa-info-circle fa-10x info-icon"></i>
+                            <i class="fas fa-info-circle fa-10x info-icon text-shadow-2"></i>
                         </div>
                         <!-- About heading and text -->
                         <div class="col-12 col-md-8 col-lg-6 col-xl-5 px-lg-3 text-md-start">
@@ -176,7 +200,7 @@
                     </div>
                     <!-- Services icon -->
                     <div class="col-md-3 col-lg-4 px-lg-3 text-lg-start text-md-center d-none d-md-block">
-                        <i class="fas fa-toolbox fa-10x toolbox-icon"></i>
+                        <i class="fas fa-toolbox fa-10x toolbox-icon text-shadow-2"></i>
                     </div>
                 </div>
             </div>
@@ -189,27 +213,29 @@
                     <div class="row g-0">
                         <!-- About heading and text -->
                         <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
-                            <h1 class="text-white text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact</h1>
+                            <h1 class="text-white text-uppercase text-shadow-1 header-font ls-5 contact-head">Contact
+                            </h1>
                             <!-- Contact info -->
-                            <p class="text-white">Get in touch,<br>Send us a message and we'll get back to you shortly.</p>
+                            <p class="text-white">Get in touch,<br>Send us a message and we'll get back to you shortly.
+                            </p>
                             <!-- Contact form -->
                             <form id="contactForm" class="px-2 px-md-0">
                                 <!-- Name -->
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control rounded-0" id="name"
-                                        name="name" placeholder="Name*" required>
+                                    <input type="text" class="form-control rounded-0" id="name" name="name"
+                                        placeholder="Name*" required>
                                     <label for="name">Name*</label>
                                 </div>
                                 <!-- Email Address -->
                                 <div class="form-floating mb-3">
-                                    <input type="email" class="form-control rounded-0" id="email"
-                                        name="email" placeholder="Email Address*" required>
+                                    <input type="email" class="form-control rounded-0" id="email" name="email"
+                                        placeholder="Email Address*" required>
                                     <label for="email">Email Address*</label>
                                 </div>
                                 <!-- Contact Number -->
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control rounded-0" id="number"
-                                        name="number" placeholder="Contact Number*" required>
+                                    <input type="text" class="form-control rounded-0" id="number" name="number"
+                                        placeholder="Contact Number*" required>
                                     <label for="number">Contact Number*</label>
                                 </div>
 
@@ -222,10 +248,10 @@
                                 <!-- Form buttons -->
                                 <div class="row">
                                     <div class="col text-center">
-                                        <button type="reset"
-                                            class="btn btn-outline-light border-0 dblue-bg rounded-0 text-uppercase ls-1 px-4 px-lg-5">Clear</button>
-                                        <button type="submit" id="sendbutton"
-                                            class="btn btn-outline-light border-0 red-bg rounded-0 text-uppercase ls-1 px-4 px-lg-5">Send</button>
+                                        <button type="reset" class="btn btn-outline-light border-0 dblue-bg rounded-0 text-uppercase 
+                                            ls-2 px-4 px-lg-5">Clear</button>
+                                        <button type="submit" id="sendbutton" class="btn btn-outline-light border-0 red-bg rounded-0 text-uppercase 
+                                            ls-2 px-4 px-lg-5">Send</button>
                                     </div>
                                 </div>
                             </form>
@@ -235,6 +261,11 @@
                 </div>
             </div>
         </div>
+
+        <!--Back to top button-->
+        <a id="back-to-top-btn" class="text-white text-center red-bg">
+            <i class="fas fa-angle-double-up text-shadow-2" aria-hidden="true"></i>
+        </a>
     </main>
 
     <!-- Footer containing social media links, copyright and link to personal portfolio -->
