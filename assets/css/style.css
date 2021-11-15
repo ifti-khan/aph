@@ -105,6 +105,10 @@ main {
     background-color: #c9c9c9;
 }
 
+.bg-dgrey {
+    background-color: #969696;
+}
+
 /* Text Shadows */
 .text-shadow-1 {
     text-shadow: 2px 2px 0.5px #000000c9;

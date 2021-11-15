@@ -20,6 +20,10 @@
         width: 500px
     }
 
+    .contact-info p {
+        font-size: 26px;
+    }
+
     .info-banner {
         font-size: 35px;
     }
@@ -31,6 +35,10 @@
 
     .aph-logo {
         width: 350px
+    }
+
+    .contact-info p {
+    font-size: 22px;
     }
 
     .info-banner {
@@ -53,7 +61,7 @@
     /* Back to top button */
     #back-to-top-btn {
         bottom: 87px;
-        right: 8px;
+        right: 9px;
 
     }
 
@@ -77,6 +85,10 @@
 
     .aph-logo {
         width: 275px
+    }
+
+    .contact-info p {
+        font-size: 18px;
     }
 
     .info-banner {
