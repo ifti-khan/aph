@@ -24,17 +24,17 @@ document.getElementById('contactForm')
                 "contact_number": this.number.value,
             })
             .then((response) => {
-                btn.textContent = 'Sent';
+                btn.textContent = 'Message Sent';
                 console.log("Message Has Been Sent", response);
                 resetContactForm();
-                setTimeout(changeSendBtnText, 5000);
+                setTimeout(changeSendBtnText, 7000);
 
             }, (error) => {
                 btn.textContent = 'Error';
                 console.log("Message Failed To Send", error);
                 alert(`Oops something went wrong!`);
                 resetContactForm();
-                setTimeout(changeSendBtnText, 3000);
+                setTimeout(changeSendBtnText, 7000);
                 //window.location.replace("assets/pages/message_404.html");
             });
     });
