@@ -167,6 +167,18 @@ main {
     height: 150px;
 }
 
+#subject {
+    display: none;
+}
+
+#message-confirmation {
+    display: none;
+}
+
+#message-error {
+    display: none;
+}
+
 /* Back to top button */
 #back-to-top-btn {
     font-size: 30px;

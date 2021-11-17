@@ -238,12 +238,49 @@
                                         placeholder="Contact Number*" required>
                                     <label for="number">Contact Number*</label>
                                 </div>
-
+                                <!-- Subject Select -->
+                                <div class="mb-3">
+                                <select id="subSelect" class="form-select form-select-lg rounded-0 fs-6 ls-1" required>
+                                    <option selected disabled value="">Please Select A Subject*</option>
+                                    <option value="Quote">Looking For A Quote</option>
+                                    <option value="Question">General Question</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                </div>
+                                <!-- Other Subject Field -->
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control rounded-0" id="subject" name="subject"
+                                        placeholder="Subject*" required>
+                                    <label for="subject">Subject*</label>
+                                </div>
                                 <!-- Message box -->
                                 <div class="form-floating mb-3">
                                     <textarea class="form-control rounded-0" id="message" name="message"
                                         placeholder="Message*" required></textarea>
                                     <label for="message">Message*</label>
+                                </div>
+                                <!-- Contact confirm checkbox -->
+                                <div class="col-6 mx-auto" id="checkbox-confirm">
+                                    <div class="form-check">
+                                        <label class="form-check-label text-white ls-2 pb-3">
+                                            <input class="form-check-input rounded-0" type="checkbox" required>
+                                            Please confirm that you are human*
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Message confirmation -->
+                                <div id="message-confirmation" class="mb-3 text-white ls-2">
+                                    <p>Your message has been sent, Someone will get back to you shortly</p>
+                                </div>
+                                <!-- Message confirmation -->
+                                <div id="message-error" class="mb-3 text-white ls-2 lh-lg">
+                                    <p class="mb-0">Your message failed to send, Please email us directly at:<br>
+                                        <a href="mailto:info@aph.co.uk" class="text-decoration-none text-white">
+                                            <p class="ls-2 fs-4 text-center">
+                                                albanaph786@gmail.com
+                                            </p>
+                                        </a>
+                                    </p>
                                 </div>
                                 <!-- Form buttons -->
                                 <div class="row g-0">
