@@ -21,7 +21,7 @@
     }
 
     .contact-info p {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .info-banner {
@@ -56,6 +56,10 @@
 
     .service-col {
         font-size: 12px;
+    }
+
+    .form-check-label {
+        font-size: 14px;
     }
 
     /* Back to top button */
