@@ -148,6 +148,11 @@ main {
 }
 
 /* Banner section */
+.contact-num-two a:hover,
+.contact-email-two a:hover {
+    color: #ffffff;
+}
+
 .info-banner {
     font-size: 50px;
 }

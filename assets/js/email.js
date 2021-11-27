@@ -53,7 +53,7 @@ document.getElementById('contactForm')
         btn.textContent = 'Sending...';
 
         // Emailjs service ID and template ID
-        const serviceID = 'aph-gmail-service';
+        const serviceID = 'ionos-info-email';
         const templateID = 'aph-default-template';
 
         // This is taking the form values from the html to
