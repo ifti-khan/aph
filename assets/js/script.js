@@ -21,4 +21,24 @@ $(document).ready(function () {
         $('html, body').scrollTop(0);
     });
 
+
+    //Navbar scroll background colour change
+    let mainHeader = document.getElementById("main-head");
+    let mainHeaderHeight = mainHeader.offsetHeight;
+    let navBar = $('#topNav');
+
+    //let mainHeaderWidth = mainHeader.offsetWidth;
+    //console.log(mainHeaderHeight);
+    //console.log(mainHeaderWidth);
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > mainHeaderHeight) {
+            navBar.removeClass('bg-white');
+            navBar.addClass('bg-dark');
+        } else {
+            navBar.removeClass('bg-dark');
+            navBar.addClass('bg-white');
+        }
+    });
+
 });
