@@ -33,11 +33,9 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > mainHeaderHeight) {
-            navBar.removeClass('bg-white');
-            navBar.addClass('bg-dark');
+            navBar.removeClass('bg-white').addClass('bg-dark');        
         } else {
-            navBar.removeClass('bg-dark');
-            navBar.addClass('bg-white');
+            navBar.removeClass('bg-dark').addClass('bg-white');
         }
     });
 

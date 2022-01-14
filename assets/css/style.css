@@ -124,7 +124,7 @@ main {
 
 /* Navbar */
 .aph-logo {
-    width: 500px
+    width: 450px
 }
 
 .contact-info-con {
@@ -132,7 +132,13 @@ main {
 }
 
 .gas-safe-img {
-    width: 150px;
+    width: 125px;
+}
+
+.city-guild-img {
+    width: 140px;
+    height: 140px;
+
 }
 
 .about-link {
@@ -164,6 +170,14 @@ main {
 /* About section */
 .info-icon {
     padding-top: 85px;
+}
+
+.qualification-img-about-cg {
+    width: 140px;
+}
+
+.qualification-img-about-gs {
+    width: 100px;
 }
 
 /* Services Section */
