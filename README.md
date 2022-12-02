@@ -1,5 +1,5 @@
 # Alban Plumbing &amp; Heating Limited
 
-<a href="https://ifti-khan.github.io/aph/" target="_blank">Click Here To Visit Site</a>
+[Click Here To Visit Site](https://ifti-khan.github.io/aph/)
 <br><br>
 ![Image of Project](assets/images/aph-multi-device.png)
