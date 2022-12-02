@@ -2,4 +2,4 @@
 
 [Click Here To Visit Site](https://ifti-khan.github.io/aph/)
 <br><br>
-![Image of Project](assets/images/aph-multi-device.png)
+![Image of Project](assets/images/aph-multi-device.png){:target="_blank"}
